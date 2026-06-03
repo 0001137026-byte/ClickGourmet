@@ -6,11 +6,18 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('welcome_message');
+        return view('index');
     }
 
-    public function clickgourmet(): string
-    {
-        return view('clickgourmet');
+    public function perfil(): string {
+        return view('perfil');
+    }
+
+    public function receita(): string {
+        return view('receita');
+    }
+
+    public function sair(): string {
+        return view('index');
     }
 }

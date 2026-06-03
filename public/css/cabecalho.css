@@ -1,0 +1,81 @@
+body {
+  background-color: #f0f0f0 !important;
+  font-family: Arial, sans-serif !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex: 1 !important;
+}
+
+.imgLogo {
+  width: 40px !important;
+  height: auto !important;
+  margin-bottom: 20px !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.logo {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.logo h1 {
+  color: #ffffff !important;
+  font-size: 17px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.esquerda {
+  background-color: #333333 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100vh !important;
+  width: 20% !important;
+  min-width: 150px !important;
+  padding: 20px !important;
+}
+
+#selected {
+  background-color: #483dad !important;
+}
+
+#selected:hover {
+  background-color: #483dad !important;
+}
+
+.menu{
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+  margin-top: 20px !important;
+}
+
+.menu a {
+  color: #ffffff !important;
+  text-decoration: none;
+  font-size: 14px !important;
+  padding: 5px 10px !important;
+  border-radius: 4px !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.menu .sair:hover {
+  margin-top: auto !important;
+  background-color: #ff4d4d !important;
+}
+
+.menu a:hover {
+  background-color: #555555 !important;
+}
+
+.direita {
+  background-color: #ffffff !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100vh !important;
+  width: 80% !important;
+}

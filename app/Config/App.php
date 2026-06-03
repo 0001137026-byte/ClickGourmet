@@ -16,7 +16,7 @@ class App extends BaseConfig
      *
      * E.g., http://example.com/
      */
-    public string $baseURL = 'http://localhost/meu_projeto/';
+    public string $baseURL = 'http://localhost/glickgourmet/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
